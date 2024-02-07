@@ -1,0 +1,50 @@
+.form-container {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+    background-color: #337748;
+    margin-left: 20%;
+    color: white;
+}
+
+form {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #43995C;
+    padding: 1%;
+    font-size: larger;
+
+    border-bottom-color: transparent;
+}
+
+button:hover {
+    background-color: #265935;
+}

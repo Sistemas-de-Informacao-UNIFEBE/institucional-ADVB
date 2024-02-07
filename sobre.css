@@ -1,0 +1,53 @@
+.texto-um, .texto-dois {
+    text-align: center, justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 130%;
+    line-height: 36px;
+    word-spacing: 4px;
+}
+
+.titulo-um, .titulo-dois {
+    text-align: left;
+    margin-left: 7%;
+    font-size: 280%;
+}
+
+.titulo-dois {
+    border-bottom: 2px solid #a8a5a5; 
+    margin-top: 10px;
+}
+
+.subtitulo {
+    text-align: left;
+    margin-left: 7%;
+    font-size: 250%;
+    color: rgb(28, 69, 28);
+}
+
+.data {
+    border-top: 2px solid #a8a5a5;
+    border-bottom: 2px solid #a8a5a5; 
+    text-align: left;
+    margin-left: 4%;
+    font-size: 140%;
+    color:gray;
+    margin-top: 10px;
+}
+
+.imagem-louis {
+    float: right;
+    width: 15%;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 18%;
+    margin-top: 6%;
+}
+
+.titulo-um {
+    border-top: 2px solid #a8a5a5; 
+    margin-top: 2px;
+}
+
+
+

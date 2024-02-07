@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    margin-top: -18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}header {
+    background-color: #28703C;
+}header ul {                        
+    padding: 2%; 
+}header li {                           
+    display: inline;
+    padding: 40px;
+}header li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-large
+}header li a:hover {
+    color: #265935;
+}footer {
+    background-color: #28703C;
+    float: left;
+    width: 100%;
+}* {
+    box-sizing: border-box;
+}.menu_footer {
+    width: 65%;
+    float: left;
+    padding: 15px;
+}.main {
+    width:35%;
+    float: left;
+    padding: 15px;
+}.menu_footer li {
+    list-style-type: none;
+    color: #fff;
+    font-size: large;
+    line-height: 250%;
+    padding-left: 3%;
+}.main li {
+    text-align: right;
+    list-style-type: none;
+    color: #fff;
+    font-size: large;
+    padding-right: 18%;
+    padding-top: 2%;
+    line-height: 100%;
+}#linha_footer {
+    line-height: 450%;
+}.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -16px;
+}.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #265935;
+    font-size: xx-large;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #000;
+}.dropbtn {
+    background-color: #28703C;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}.dropbtn:hover, .dropbtn:focus {
+    background-color: #28703C;
+}.dropdown {
+    position: relative;
+    display: inline-block;
+}.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #28703C;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+} .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}.dropdown a:hover {
+    background-color: #265935; 
+    color: #fff;
+}.show {
+    display: block;
+}#dosvox{
+    margin: 4%;
+}
+#dosvox_foto{
+    float: left;
+    margin-left: 5%;
+    padding-right: 3%;
+    text-align: justify;
+}.green-box {
+    background-color: #28703C;
+    width: 630px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #ffffff;
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}.green-rectangle {
+    background-color: #28703C;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}h1{
+    color: #265935;
+}h2{
+    font-weight: bold;
+}p{
+    text-align: justify;
+    padding-top: 3%;
+}#virtualvision{
+    background-color: #E6E6E6;
+    padding: 3%;
+    margin-top: 5%;
+}.virtual{
+    text-align: center;
+    margin: 8%;
+}.contain{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6E6E6;
+}.nvda{
+    padding: 5%;
+}#freedom{
+    background-color: #E6E6E6;
+    padding: 5%;
+}.unifebe{
+    text-align: center;
+    padding: 4%;
+}.conta{
+    display: flex;
+    justify-content: space-between;
+}.drive{
+    margin: 4%;
+}.docs{
+    display: flex;
+    justify-content: space-between;
+}.img-container {
+    float: left;
+    width: 15%;
+    align-items: center;
+    margin: 3%;
+}.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}.arq{
+    display: flex;
+    justify-content: space-between;
+}#corpo {
+    margin: 50px 150px;
+}#formulario {
+    text-align: left;
+    margin: 0 0px;
+}#formulario .direita {
+    float: right;
+    width:50%;
+}#formulario .esquerda {
+    float: left;
+    width:50%;
+}#formulario label {
+    line-height: 50px;
+    text-align:left;
+    color:#fff;
+}#formulario input {
+    background-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent; 
+    border-right-color: transparent;
+    border-bottom-color: #fff;   
+    color: #fff;
+}#formulario .botao {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #43995C;
+    padding: 1%;
+    font-size: larger;
+    margin-top: 3%;
+    border-bottom-color: transparent;
+}#formulario .botao:hover {
+    background-color: #265935;
+}
+#seçao1{
+    background-image: url(img/dog.png);
+    height: 568px;
+    opacity: 90%;
+    margin-top: -16px;
+}
+#logo1{
+    left: 60px;
+    top: 143px;
+    position: absolute;
+    width: 497px;
+    height: 196px;
+}
+
+
+.titulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    color: #000;
+    text-align: left;
+    margin-left: 5%;
+    
+}
+
+.paragrafos{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center, justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 0%;
+    margin-top: -50px;
+}
+
+.paragrafos h4{
+    padding-top: 2.5%;
+    margin: -2%;
+    margin-left: 0%;
+}
+
+#imagem-sidnei{
+    float: right;
+    width: 19%;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 18;
+    margin-top: 2%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" href="img/fav.png">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: #28703C">
+    <header>
+        <ul>
+            <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"> <img src="img/IconMenu.png" alt="menu" height="25px"></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html">Início</a>
+                  <a href="sobre.html">Sobre o braile</a>
+                  <a href="ferramentas.html">Ferramentas</a>
+                  <a href="voluntariado.html">Voluntariado</a>
+                  <a href="documentos.html">Documentos</a>
+                  <a href="contato.html">Contato</a>
+                </div>
+            </div>
+        </li>
+            <li><a href="index.html#historia">História</a></li>
+            <li><a href="index.html#missao">Missão</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+            <li><img src="img/Facebook.png" alt="logo_facebook" height="25px"></li>
+            <li><img src="img/Instagram.png" alt="logo_insta" height="25px"></li>
+        </ul>
+    </header>
+    <h1 style="background-color: #43995C; text-align: center; padding: 1%; margin-left: 40%; margin-right: 40%; color: #fff;">Cadastro</h1>
+        <div id="corpo">
+           <div id="formulario">
+                <form action="insere.php" method="post"> 
+                    <div class="data direita" id="">
+                        <label for="idade">Idade:</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="esquerda" id="">
+                        <label for="nome">Nome Completo:</label>
+                        <br>
+                        <input type="text" size="45" >
+                    </div>
+                    <div class="rg esquerda" id="">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="cpf direita" id="">
+                        <label for="telefone">Telefone:</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="esquerda" id="">
+                        <label for="automovel">Possui automóvel próprio?</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="direita" id="">
+                        <label for="tempo">Possui disponibilidade de tempo? Se sim, quais dias?</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="esquerda" id="">
+                        <label for="cesta">Possui disponibilidade para montar cesta básica?</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="direita" id="">
+                        <label for="ajuda">De que forma você consegue ajudar nossa associação?</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <div class="telefone esquerda" id="">
+                        <label for="motivo">Qual foi o motivo que te fez vir até nós?</label>
+                        <br>
+                        <input type="text" size="45">
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar" class="botao">
+                </form>
+           </div>
+        </div>
+        <footer>
+            <div class="menu_footer" style="background-color: #fff;padding-bottom: 2%;">
+                <ul>
+                    <li><img src="img/Logo_verde.png" alt="logo_advb" height="90px"></li>
+                    <li style="color: #28703C;">Rua Germano Schaefer, nº 10, Apto. 203 - Centro 1 - Brusque - SC - 88350-330</li>
+                </ul>
+            </div>
+            <div class="main" style="background-color: #fff; padding-bottom: 10%;">
+                <ul>
+                    <li style="color: #28703C;">Fone: (47) 9 9921 - 8292</li>
+                    <li style="color: #28703C;"> Fone: (47) 3251 - 1833</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>

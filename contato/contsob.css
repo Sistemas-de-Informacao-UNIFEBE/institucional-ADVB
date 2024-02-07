@@ -1,0 +1,30 @@
+.linha {
+    border: none;
+    border-bottom: 1px solid black; 
+    margin-left: 10px; 
+}
+
+.esquerda,.direita {
+background-color: #43995C;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 1%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+#formulario .direita {
+    float: right;
+    width:50%;
+}
+
+#formulario .esquerda {
+    float: left;
+    width:50%;
+}
+
+#formulario label {
+    line-height: 50px;
+    text-align:left;
+    color:#fff;
+}
